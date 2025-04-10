@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* Define as propriedades a todos os elementos da página.*/
+
+* {
+    /* Remove a margem externa de todos os lados do elemento*/
+    margin:0;
+    /* Remove o espaçamento interno de todos os lados do elemento*/
+    padding:0; 
+    /*Preenchimento e a borda serão incluidos na largura e altura*/
+    box-sizing:border-box;
+}
+
+body {
+    /* Torna o elemento um flex container */
+    display: flex;
+    /* Alinha os flex itens de acordo com o eixo do container. */
+    align-items: center;
+
+    /*Alinha os itens flex no container de acordo com a direção.*/
+    justify-content: center;
+
+    /* Altura minima do elemento. */
+    /* Unidades de tamanho da tela vh e vw.*/
+    min-height: 100vh;
+    background: #660099;
+
+}
+
+
+section{
+    /* Cor do elemento */
+    background:#e2e2e2;
+
+    /* Gerar espaçoo ao redor do elemento*/
+    padding: 30px 15px;
+
+    /* Arredondamento de cantos */
+    border-radius: 4px;
+
+    /* Bordas. */
+    border-color: #660099;
+
+    /* Arreondamento de bordas */
+    border-radius: 40px;
+
+    /* Tamanho máximo do elemento*/
+    max-width: 70vw;
+
+}
+section h1 { /*Titulo */
+    padding: 0px 10px;
+    /* Alinha o texto no centro. */
+    text-align: center;
+    font-family:'Roboto';
+    font-size: 30px ;
+}
+section p{ /*Subtexto*/
+    padding: 20px 10px;
+    text-align:center;
+    font-family: 'Roboto';
+    color:gray;
+
+}   
+fieldset { /*Todos */
+    /* Remove a borda. */
+    border: none;
+    font-family:'Arial';
+    font-size:14px;
+    margin: 10px;
+  
+}
+
+fieldset:nth-child(2) { /*Linha 1*/
+    display: flex;
+
+}
+
+fieldset:nth-child(3) {
+    display: flex;
+     
+}
+
+fieldset:nth-child(4) {
+    display: flex;   
+
+}
+fieldset:nth-child(5) {
+    display: flex;
+}
+
+fieldset:nth-child(6) {
+    display: flex;
+}
+
+
+.container input {
+    width: calc(100%-20px);
+    border: none;
+    font-family: 'Roboto';
+    font-size: 14px;
+    position:static;
+    background-color:#fffffF;
+    padding:5px;
+    position:10px;
+}
+
+.button {
+    background-color:#660099;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    padding: 10px;
+    margin-left: 55px;
+    text-align: center;
+    cursor: pointer;
+}

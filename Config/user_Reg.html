@@ -1,0 +1,82 @@
+<!-- Pendencias de ajustes-->
+ <!-- 1. Adicionar o link da Url de aceitação dos termos de uso-->
+
+
+<!DOCTYPE html>
+<!-- Linguagem do conteúdo da pag-->
+<html lang = "pt-br">
+<head>
+    <meta charset ="utf-8">
+<!-- Ajuste de tela para escala de celular-->
+<!-- Viewport mantendo a proporção de 1:1 entre a versão convencional e a versão do celular-->   
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0"> 
+
+    <link rel="stylesheet" type="text/css" href="cssstyle.css">
+    
+    <title>Cadastre-se no Vivo Seat</title>
+</head>
+
+<body>
+    <!-- Seção genérico, usado quando não existe um elemento semantico mais específico para representa-lo-->
+    <section>
+        <form action="#" method="POST">
+        <fieldset>
+            <h1>Criar nova conta</h1>
+            <p>Rápido e fácil.</p>
+            <hr>
+        </fieldset>
+            <fieldset> <!-- Realiza a criação de campos-->
+                <div class="container"> <!-- Criação da primeira divisória no bloco-->
+                    <input type="text" placeholder="Nome" required name="name" autofocus>
+                </div>
+            </fieldset>    
+            
+            <fieldset>
+                <div class="container">
+                    <input type="text" placeholder="Sobrenome" required name="sobrenome">
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <div class="container">
+                    <input type="email" placeholder="E-mail" required name="email">
+                </div>
+            </fieldset>
+
+            <fieldset> 
+                <div class="container">
+                    <input type="date"  placeholder="dd/mm/aaaa" data-="date">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="container">
+                    <input type="password" placeholder="Senha" required name="password">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="container">
+                    <input type="password" placeholder="Confirmar senha" name="confirm">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div id="check">
+                    <input type="checkbox" required name="accept">
+                    <label>Aceitar os termos de uso</label>
+                </div>
+            </fieldset>
+            
+            <!-- Criar botão de envio de dados-->       
+            <fieldset>
+            <button class="button">Criar conta</button>
+            </fieldset>
+            
+            <!-- Link de redirecionamento de página após a criação de conta-->
+            <a href="#">Ler termos de uso</a> <!-- Adicionar o link da pagina dos termos de uso no lucgar da #-->
+            
+        </form>
+    </section>
+</body>
+</html>
