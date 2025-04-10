@@ -41,7 +41,7 @@ section{
     border-color: #660099;
 
     /* Arreondamento de bordas */
-    border-radius: 40px;
+    border-radius: 25px;
 
     /* Tamanho máximo do elemento*/
     max-width: 70vw;
@@ -70,7 +70,6 @@ fieldset { /*Todos */
 }
 
 a {
-    padding: 5%;
     text-decoration: none;
     color: #660099;
     font-family:'-apple-system', 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -78,16 +77,17 @@ a {
 }
 
 .container input {
-    align-items: center;
-    padding: 10%;
-    width: calc(80%);
+    
+    width: 80%;
     border: none;
+    border-radius: 5px;
     font-family: inherit;
     font-size: 14px;
     position:static;
     background-color:#fffffF;
     padding:5px;
-    position:10px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .button {
@@ -98,7 +98,9 @@ a {
     font-family: inherit;
     color: #FFFFFF;
     padding: 10px;
-    margin-left: 55px;
+    width: 46%;
+    margin-left: 28%;
+    margin-right: 28%;
     text-align: center;
     cursor: pointer;
 }
