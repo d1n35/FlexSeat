@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* Define as propriedades a todos os elementos da página.*/
+
+* {
+    /* Remove a margem externa de todos os lados do elemento*/
+    margin:0;
+    /* Remove o espaçamento interno de todos os lados do elemento*/
+    padding: 0; 
+    /*Preenchimento e a borda serão incluidos na largura e altura*/
+    box-sizing:border-box;
+}
+
+body {
+    /* Torna o elemento um flex container */
+    display: flex;
+    /* Alinha os flex itens de acordo com o eixo do container. */
+    align-items: center;
+
+    /*Alinha os itens flex no container de acordo com a direção.*/
+    justify-content: center;
+
+    /* Altura minima do elemento. */
+    /* Unidades de tamanho da tela vh e vw.*/
+    min-height: 100vh;
+    
+    background: #E0E0E1;
+
+}
+section{
+    /* Cor do elemento */
+    background:#7A29B0;
+
+    /* Gerar espaçoo ao redor do elemento*/
+    padding: 30px 5px;
+
+    /* Bordas. */
+    border-color: #E0E0E1;
+
+    /* Arreondamento de bordas */
+    border-radius: 1px;
+
+    /* Tamanho máximo do elemento*/
+    max-width: 70vw;
+
+}
+section h1 {
+    padding: 40px 10px;
+    /* Alinha o texto no centro. */
+    text-align: center;
+}
+fieldset {
+    /* Remove a borda. */
+    border: none;
+}
+
+fieldset:nth-child(2) {
+    display: flex;
+}
+
+fieldset:nth-child(4) {
+    display: flex;
+    padding-top: 20px;
+}
+
+fieldset:nth-child(5) {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 10px;
+
+}
+
+fieldset:nth-child(5) {
+
+}
