@@ -51,52 +51,38 @@ section h1 { /*Titulo */
     padding: 0px 10px;
     /* Alinha o texto no centro. */
     text-align: center;
-    font-family:'Roboto';
+    font-family:'-apple-system', 'Roboto', 'Helvetica', 'Arial', sans-serif;
     font-size: 30px ;
 }
 section p{ /*Subtexto*/
     padding: 20px 10px;
     text-align:center;
-    font-family: 'Roboto';
+    font-family: '-apple-system', 'Roboto', 'Helvetica', 'Arial', sans-serif;
     color:gray;
 
 }   
 fieldset { /*Todos */
     /* Remove a borda. */
     border: none;
-    font-family:'Arial';
+    font-family:'-apple-system', 'Roboto', 'Helvetica', 'Arial', sans-serif;
     font-size:14px;
     margin: 10px;
-  
 }
 
-fieldset:nth-child(2) { /*Linha 1*/
-    display: flex;
-
+a {
+    padding: 5%;
+    text-decoration: none;
+    color: #660099;
+    font-family:'-apple-system', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size:14px;
 }
-
-fieldset:nth-child(3) {
-    display: flex;
-     
-}
-
-fieldset:nth-child(4) {
-    display: flex;   
-
-}
-fieldset:nth-child(5) {
-    display: flex;
-}
-
-fieldset:nth-child(6) {
-    display: flex;
-}
-
 
 .container input {
-    width: calc(100%-20px);
+    align-items: center;
+    padding: 10%;
+    width: calc(80%);
     border: none;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-size: 14px;
     position:static;
     background-color:#fffffF;
@@ -109,7 +95,7 @@ fieldset:nth-child(6) {
     border-radius: 5px;
     font-weight: bold;
     font-size: 18px;
-    font-family: 'Roboto';
+    font-family: inherit;
     color: #FFFFFF;
     padding: 10px;
     margin-left: 55px;
